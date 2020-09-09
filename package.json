@@ -1,7 +1,7 @@
 {
   "scripts": {
     "storybook": "start-storybook",
-    "build-storybook": "build-storybook -c .storybook -o .dist --quiet",
+    "build-storybook": "build-storybook -s public",
     "start": "parcel ./runLocally/index.html",
     "test:unit": "jest",
     "test:lint": "eslint src .eslintplugin .storybook --ext .js,.jsx,.mjs",
